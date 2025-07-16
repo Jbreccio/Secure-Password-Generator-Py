@@ -1,0 +1,19 @@
+# Secure Password Generator - Dependencies
+
+# This project uses only native Python libraries
+# No external dependencies required
+
+# Minimum recommended Python version
+# python>=3.7
+
+# Native libraries used:
+# - secrets (cryptographically secure)
+# - string (character constants)
+# - random (shuffling)
+# - os (screen clearing)
+# - datetime (timestamp)
+
+# For development (optional):
+# pytest>=6.0.0 # For unit testing
+# black>=21.0.0 # For code formatting
+# flake8>=3.9.0 # For code analysis
