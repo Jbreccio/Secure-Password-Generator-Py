@@ -1,98 +1,98 @@
-# 🔐 Gerador de Senhas Seguras
+# 🔐 Secure Password Generator
 
-Um gerador de senhas personalizável que cria senhas seguras com diferentes critérios de complexidade.
+A customizable password generator that creates secure passwords with different complexity criteria.
 
-## 📋 Funcionalidades
+## 📋 Features
 
-- 🔢 Controle de tamanho da senha
-- 🔤 Opção de letras maiúsculas
-- 🔡 Opção de letras minúsculas
-- 🔢 Opção de números
-- 🔣 Opção de símbolos especiais
-- 🚫 Exclusão de caracteres ambíguos
-- 💾 Geração de múltiplas senhas
-- 🔍 Verificação de força da senha
-- 📊 Análise de segurança
+- 🔢 Password length control
+- 🔤 Uppercase option
+- 🔡 Lowercase option
+- 🔢 Number option
+- 🔣 Special symbol option
+- 🚫 Ambiguous character removal
+- 💾 Multiple password generation
+- 🔍 Password strength check
+- 📊 Security analysis
 
-## 🛠️ Tecnologias Utilizadas
+## 🛠️ Technologies Used
 
 - Python 3.7+
-- Módulo `random` (nativo)
-- Módulo `secrets` (mais seguro)
-- Módulo `string` (nativo)
+- `random` module (native)
+- `secrets` module (more secure)
+- `string` module (native)
 
-## 🚀 Como Executar
+## 🚀 How to Run
 
-1. Clone o repositório
-2. Navegue até a pasta do projeto
-3. Execute o comando:
+1. Clone the repository
+2. Navigate to the project folder
+3. Run the command:
 ```bash
 python main.py
 ```
 
-## 📖 Como Usar
+## 📖 How to Use
 
-1. Execute o programa
-2. Defina o tamanho da senha
-3. Escolha os tipos de caracteres
-4. Decida se quer excluir caracteres ambíguos
-5. Escolha quantas senhas gerar
-6. Veja as senhas geradas e sua análise
+1. Run the program
+2. Set the password length
+3. Choose the character types
+4. Decide whether to exclude ambiguous characters
+5. Choose how many passwords to generate
+6. View the generated passwords and their analysis
 
-## 🎯 Tipos de Caracteres
+## 🎯 Character Types
 
-- **Maiúsculas**: A-Z
-- **Minúsculas**: a-z
-- **Números**: 0-9
-- **Símbolos**: !@#$%^&*()_+-=[]{}|;:,.<>?
+- **Uppercase**: A-Z
+- **Lowercase**: a-z
+- **Numbers**: 0-9
+- **Symbols**: !@#$%^&*()_+-=[]{}|;:,.<>?
 
-## 🚫 Caracteres Ambíguos (Opcionais)
+## 🚫 Ambiguous Characters (Optional)
 
-- **Números**: 0, 1
-- **Letras**: O, I, l (facilmente confundidos)
+- **Numbers**: 0, 1
+- **Letters**: O, I, l (easily confused)
 
-## 🔍 Análise de Força
+## 🔍 Strength Analysis
 
-- 🔴 **Fraca**: < 8 caracteres ou poucos tipos
-- 🟡 **Média**: 8-11 caracteres com tipos variados
-- 🟢 **Forte**: 12+ caracteres com todos os tipos
+- 🔴 **Weak**: <8 characters or few types
+- 🟡 **Medium**: 8-11 characters with varied types
+- 🟢 **Strong**: 12+ characters with all types
 
-## 🎯 Conceitos Aprendidos
+## 🎯 Concepts Learned
 
-- Módulo secrets (criptograficamente seguro)
-- Módulo random
-- Módulo string
-- Manipulação de strings
-- Validação de entrada
-- Análise de complexidade
-- Boas práticas de segurança
+- Secrets module (cryptographically secure)
+- Random module
+- String module
+- String manipulation
+- Input validation
+- Complexity analysis
+- Good security practices
 
-## 📝 Exemplo de Uso
+## 📝 Usage Example
 
 ```
-🔐 GERADOR DE SENHAS SEGURAS
-Tamanho da senha (8-128): 16
-Incluir maiúsculas? (s/n): s
-Incluir minúsculas? (s/n): s
-Incluir números? (s/n): s
-Incluir símbolos? (s/n): s
-Excluir caracteres ambíguos? (s/n): s
-Quantas senhas gerar? (1-10): 3
+🔐 SECURE PASSWORD GENERATOR
+Password length (8-128): 16
+Include uppercase? (y/n): y
+Include lowercase letters? (y/n): y
+Include numbers? (y/n): y
+Include symbols? (y/n): y
+Exclude ambiguous characters? (y/n): y
+How many passwords to generate? (1-10): 3
 
-Senhas geradas:
-1. Kp@9mVx7RtYw3#Nq (Força: 🟢 Forte)
-2. Bz$5fHj8LmPr2&Xs (Força: 🟢 Forte)
-3. Ck#4nQs9WtGv6!Zy (Força: 🟢 Forte)
+Generated Passwords:
+1. Kp@9mVx7RtYw3#Nq (Strength: 🟢 Strong)
+2. Bz$5fHj8LmPr2&Xs (Strength: 🟢 Strong)
+3. Ck#4nQs9WtGv6!Zy (Strength: 🟢 Strong)
 ```
 
-## 🔧 Melhorias Futuras
+## 🔧 Future Improvements
 
-- Salvamento de senhas em arquivo
-- Verificação contra vazamentos
-- Geração baseada em palavras
-- Interface gráfica
-- Integração com gerenciadores de senhas
+- Saving passwords to a file
+- Leak checking
+- Word-based generation
+- Graphical user interface
+- Integration with password managers
 
-## 📄 Licença
+## 📄 License
 
-Este projeto está sob a licença MIT.
+This project is licensed under the MIT license.
